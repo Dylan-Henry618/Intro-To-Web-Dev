@@ -1,0 +1,27 @@
+* {
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+}
+header {
+  background: red;
+  font-size: 200%
+}
+h1, h2 {
+  background: teal;
+  font-size: 200%;
+}
+body {
+  background: grey;
+  text-align: center;
+  font-size: 200%;
+}
+
+img {
+  padding-top: 5px;
+  align-items: center;
+  max-width: 50%;
+  height: auto;
+}
