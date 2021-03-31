@@ -1,0 +1,113 @@
+*{
+  font-family: 'Ranchers', cursive;
+}
+.navigationBar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: darkgrey;
+  text-align: center;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 25px;
+}
+
+nav a {
+  color: teal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  display: grid;
+  grid-auto-flow: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  color: teal;
+}
+
+h1 {
+  color: teal;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+p {
+  color: teal;
+  font-size: 30px;
+
+}
+
+.CrashBandicoot {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+
+.Spyro {
+  display:flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+figcaption {
+  text-align: center;
+  color:white;
+}
+
+.TheNotSoGoodBlock, p {
+  display:flex;
+  padding-left: 30px;
+  padding-right: 20px;
+
+
+}
+.IntroContainer .TheNotSoGoodBlock > div:hover {
+  width: 400px;
+  height: 200px;
+  background-image: url(https://i.pinimg.com/564x/c8/8e/ff/c88effa5984946147112b998ad3837af.jpg);
+}
+
+.TheNotSoGoodBlock{
+  display: flex;
+
+  padding-top: 2px;
+}
+
+.TheNotSogoodBlock, p {
+  padding: 20px;
+}
+
+.end {
+  text-align: center;
+  font-size: 30px;
+}

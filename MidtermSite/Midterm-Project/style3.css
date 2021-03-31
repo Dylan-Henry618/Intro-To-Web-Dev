@@ -1,0 +1,128 @@
+*{
+  font-family: 'Ranchers', cursive;
+}
+
+.navigationBar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: darkgrey;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 25px;
+}
+
+nav a {
+  color: teal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  color: teal;
+  font-size: 20px;
+
+}
+
+.Warcraft3 p {
+  font-size: 40px;
+}
+
+.Warcraft3 img {
+  padding-left: 20px;
+}
+
+.Refunded {
+  position: relative;
+  display: inline-block;
+}
+
+.Refunded .RefundedforSure {
+  display: none;
+  position: absolute;
+
+}
+.Refunded:hover .RefundedforSure{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h4 {
+  padding-top: 20px;
+  font-size: 70px;
+  color: blue;
+
+}
+
+figure {
+  color: white;
+}
+
+.DeadRising {
+  color:blue;
+}
+
+.Battlefront2 {
+  color: purple;
+}
+
+.BF2Redone {
+  position: relative;
+  display: inline-block;
+}
+
+.BF2Redone .REALBF2 {
+  display: none;
+  position: absolute;
+
+}
+.BF2Redone:hover .REALBF2{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+
+}
+
+.BF2good {
+  display: inline-block;
+  flex-direction: row-reverse;
+}

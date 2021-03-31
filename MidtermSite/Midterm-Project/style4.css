@@ -1,0 +1,96 @@
+*{
+  font-family: 'Ranchers', cursive;
+}
+
+.navigationBar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: darkgrey;
+
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 25px;
+}
+
+nav a {
+  color: teal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  background-image: url("https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/860_fireworks_banner_4MB.gif");
+  background-size: cover;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+}
+
+h5 {
+  font-size: 60px;
+}
+
+.Lootboxes {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 50px;
+}
+
+figure {
+  padding: 20px;
+  color:green;
+}
+
+figure2 {
+  padding: 20px;
+  color: red;
+}
+
+.Lootbox {
+  position: relative;
+  display: inline-block;
+}
+
+.Lootbox .TheReward {
+  display: none;
+  position: absolute;
+}
+
+.Lootbox:hover .TheReward{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+}

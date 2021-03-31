@@ -1,0 +1,24 @@
+p {
+  font-size: 200px;
+}
+
+button {
+  display: block;
+  align-items: center;
+  padding-top:20px;
+    padding: 200px;
+    border-radius: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+
+}
+
+
+button:hover {
+    border: 5px solid rgb(0,0,0);
+}
+
+.PushButton {
+  background-color: red;
+}

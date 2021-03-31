@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Dylan Henry Button</title>
+  <link rel="shortcut icon" type="image/png" href=""/>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="RealButton.js" defer></script>
+</head>
+
+<body>
+<div id="Push">
+  <h1>Alright, whatever you do, <strong>DON'T</strong> push the button, weird things might happen to the screen....</h1>
+<br>
+  <button class = "PushButton" id="PushButton" onclick="ChangeBGColor('rgb(112,128,144)'); buttonSwitch();">      </button>
+</div>
+
+<div id="Reset" hidden>
+  <p>Now you've done it, now you've turned the whole page dark! Not that there's anything abherently wrong with that, but I did tell you not to press the button!</p>
+  <br>
+  <button class= "ResetButton" id="ResetButton" onclick="ChangeBack(); buttonSwitch();">Reset</button>
+</div>
+</body>
+</html>

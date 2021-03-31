@@ -1,0 +1,141 @@
+*{
+  font-family: 'Ranchers', cursive;
+}
+
+.navigationBar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: darkgrey;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: center;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 25px;
+}
+
+nav a {
+  color: teal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  color: teal;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+
+}
+
+figure {
+  text-align: center;
+  color: white;
+}
+
+.ResidentEvil {
+  text-align: center;
+
+}
+
+
+.Sekiro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.Sekimg {
+  position: relative;
+  display: inline-block;
+}
+
+.Sekimg .GoT {
+  display: none;
+  position: absolute;
+}
+
+.Sekimg:hover .GoT{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+}
+
+
+.DOOM {
+  display:flex;
+  flex-direction: column;
+  color: red;
+  align-items: center;
+}
+
+
+.DOOMPIC {
+  position: relative;
+  display: inline-block;
+}
+
+.DOOMPIC .alternate {
+  display: none;
+  position: absolute;
+
+}
+.DOOMPIC:hover .alternate{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+
+}
+.DevilMayCry5{
+  color: blue;
+}
+.DMC5 {
+  position: relative;
+  display: inline-block;
+}
+
+.DMC5 .DMC5Front {
+  display: none;
+  position: absolute;
+
+}
+.DMC5:hover .DMC5Front{
+  display: inline;
+  top: 0;
+  left: 0px;
+  z-index: 99;
+}
