@@ -1,0 +1,23 @@
+body
+{
+}
+
+#drawingZone
+{
+    border: solid;
+}
+
+
+#Submitbtn {
+  position: absolute;
+  align-self: center;
+  height: 50px;
+  width: 100px;
+  bottom: 10px;
+  left: 50%;
+}
+
+
+dialog {
+  background: grey;
+}
