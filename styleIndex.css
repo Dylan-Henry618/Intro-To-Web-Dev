@@ -1,0 +1,31 @@
+header {
+   font-size: 60px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: lightgrey;
+  text-align: center;
+  font-size: 32px;
+}
+
+.Presentation {
+  display: flex;
+  flex-direction:row;
+}
+
+#a {
+  width: 150px;
+  height: 80px;
+  bottom: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+
+}
